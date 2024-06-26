@@ -21,7 +21,7 @@ const PROVIDERS = [
     description: "Leverage the OpenAI Whisper-large model using your API key.",
   },
   {
-    name: "AnythingLLM Built-In",
+    name: "Fabriiq Built-In",
     value: "local",
     logo: AnythingLLMIcon,
     options: (settings) => <NativeTranscriptionOptions settings={settings} />,
