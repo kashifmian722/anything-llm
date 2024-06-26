@@ -316,7 +316,7 @@ export default function GeneralLLMPreference() {
                 <p className="text-xs leading-[18px] font-base text-white text-opacity-60">
                   These are the credentials and settings for your preferred LLM
                   chat & embedding provider. Its important these keys are
-                  current and correct or else AnythingLLM will not function
+                  current and correct or else Fabriiq will not function
                   properly.
                 </p>
               </div>
