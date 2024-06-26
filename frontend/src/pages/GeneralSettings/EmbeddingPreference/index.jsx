@@ -33,7 +33,7 @@ import CTAButton from "@/components/lib/CTAButton";
 
 const EMBEDDERS = [
   {
-    name: "AnythingLLM Embedder",
+    name: "Fabriiq Embedder",
     value: "native",
     logo: AnythingLLMIcon,
     options: (settings) => <NativeEmbeddingOptions settings={settings} />,
