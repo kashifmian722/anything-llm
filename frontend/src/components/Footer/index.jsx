@@ -49,7 +49,7 @@ export default function Footer() {
     return (
       <div className="flex justify-center mb-2">
         <div className="flex space-x-4">
-          <ToolTipWrapper id="open-github">
+         {/* <ToolTipWrapper id="open-github">
             <a
               href={paths.github()}
               target="_blank"
@@ -61,7 +61,7 @@ export default function Footer() {
             >
               <GithubLogo weight="fill" className="h-5 w-5 " />
             </a>
-          </ToolTipWrapper>
+          </ToolTipWrapper> */}
           <ToolTipWrapper id="open-documentation">
             <a
               href={paths.docs()}
@@ -70,12 +70,12 @@ export default function Footer() {
               className="w-fit transition-all duration-300 p-2 rounded-full text-white bg-sidebar-button hover:bg-menu-item-selected-gradient hover:border-slate-100 hover:border-opacity-50 border-transparent border"
               aria-label="Docs"
               data-tooltip-id="open-documentation"
-              data-tooltip-content="Open AnythingLLM help docs"
+              data-tooltip-content="Open Fabriiq help docs"
             >
               <BookOpen weight="fill" className="h-5 w-5 " />
             </a>
           </ToolTipWrapper>
-          <ToolTipWrapper id="open-discord">
+        {/*  <ToolTipWrapper id="open-discord">
             <a
               href={paths.discord()}
               target="_blank"
@@ -83,15 +83,15 @@ export default function Footer() {
               className="transition-all duration-300 p-2 rounded-full text-white bg-sidebar-button hover:bg-menu-item-selected-gradient hover:border-slate-100 hover:border-opacity-50 border-transparent border"
               aria-label="Join our Discord server"
               data-tooltip-id="open-discord"
-              data-tooltip-content="Join the AnythingLLM Discord"
+              data-tooltip-content="Join the Fabriiq Discord"
             >
               <DiscordLogo
                 weight="fill"
                 className="h-5 w-5 stroke-slate-200 group-hover:stroke-slate-200"
               />
             </a>
-          </ToolTipWrapper>
-          {!isMobile && <SettingsButton />}
+          </ToolTipWrapper>  */}
+          {!isMobile && <SettingsButton />} 
         </div>
       </div>
     );
