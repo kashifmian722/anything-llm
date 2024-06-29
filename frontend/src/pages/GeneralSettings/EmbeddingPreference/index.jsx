@@ -38,7 +38,7 @@ const EMBEDDERS = [
     logo: AnythingLLMIcon,
     options: (settings) => <NativeEmbeddingOptions settings={settings} />,
     description:
-      "Use the built-in embedding provider for AnythingLLM. Zero setup!",
+      "Use the built-in embedding provider for Fabriiq. Zero setup!",
   },
   {
     name: "OpenAI",
@@ -233,7 +233,7 @@ export default function GeneralEmbeddingPreference() {
                   <br />
                   Embedding is the process of turning text into vectors. These
                   credentials are required to turn your files and prompts into a
-                  format which AnythingLLM can use to process.
+                  format which Fabriiq can use to process.
                 </p>
               </div>
               <div className="w-full justify-end flex">
