@@ -6,7 +6,7 @@ const { Telemetry } = require("../../models/telemetry");
 // of how AnythingLLM is used and how to improve this product!
 // You can see all Telemetry events by ctrl+f `Telemetry.sendEvent` calls to verify this claim.
 async function setupTelemetry() {
-  if (process.env.DISABLE_TELEMETRY === "false") {
+  if (process.env.DISABLE_TELEMETRY === "true") {
     console.log(
       `\x1b[31m[TELEMETRY DISABLED]\x1b[0m Telemetry is marked as disabled - no events will send. Telemetry helps Mintplex Labs Inc improve AnythingLLM.`
     );
