@@ -73,7 +73,7 @@ export default function DefaultChatContainer() {
             <span
               className={`whitespace-pre-line text-white font-normal text-sm md:text-sm flex flex-col gap-y-1 mt-2`}
             >
-              |Fabriiq Ai is the easiest way to put powerful AI on wotk with no fuss to increase your
+              Fabriiq Ai is the easiest way to put powerful AI on wotk with no fuss to increase your
               productivity by 100x.
             </span>
           </div>
@@ -267,7 +267,7 @@ export default function DefaultChatContainer() {
                 Have Fun!
               </span>
 
-              <div className="flex flex-col md:flex-row items-start md:items-center gap-1 md:gap-4">
+          {/*    <div className="flex flex-col md:flex-row items-start md:items-center gap-1 md:gap-4">
                 <a
                   href={paths.github()}
                   target="_blank"
@@ -283,7 +283,7 @@ export default function DefaultChatContainer() {
                   <EnvelopeSimple className="h-4 w-4" />
                   <p>Contact Mintplex Labs</p>
                 </a>
-              </div>
+              </div>  */}
             </div>
           </div>
         </div>
