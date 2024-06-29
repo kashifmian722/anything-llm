@@ -184,7 +184,7 @@ function TelemetryLogs({ settings }) {
             based information. To see the list of event tags collected you can
             look on{" "}
             <a
-              href="https://github.com/search?q=repo%3AMintplex-Labs%2Fanything-llm%20.sendTelemetry(&type=code"
+              href="https://github.com"
               className="underline text-blue-400"
               target="_blank"
             >
@@ -193,17 +193,17 @@ function TelemetryLogs({ settings }) {
             .
           </p>
           <p className="text-white/80 text-xs rounded-lg w-96">
-            As an open-source project we respect your right to privacy. We are
+            We respect your right to privacy. We are
             dedicated to building the best solution for integrating AI and
             documents privately and securely. If you do decide to turn off
             telemetry all we ask is to consider sending us feedback and thoughts
-            so that we can continue to improve AnythingLLM for you.{" "}
+            so that we can continue to improve Fabriiq for you.{" "}
             <a
-              href="mailto:team@mintplexlabs.com"
+              href="mailto:team@fabriiq.com"
               className="underline text-blue-400"
               target="_blank"
             >
-              team@mintplexlabs.com
+              team@fabriiq.com
             </a>
             .
           </p>
