@@ -52,7 +52,7 @@ function WhisperSmall() {
         <Gauge size={25} />
         <p className="text-sm">
           Running the <b>whisper-small</b> model on a machine with limited RAM
-          or CPU can stall AnythingLLM when processing media files.
+          or CPU can stall Fabriiq when processing media files.
           <br />
           We recommend at least 2GB of RAM and upload files &lt;10Mb.
           <br />
